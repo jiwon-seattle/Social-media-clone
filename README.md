@@ -15,7 +15,7 @@
 
 A social media webpage that consists of the functional components.
 
-<image src="src/img/Diagram.png" width="750px" />
+<image src="src/img/Diagram.png" width="550px" />
 
 App is upper-most parent class, and it has four children TopNav, NewsFeed, Profile, PeopleYouMayKnow.
 
