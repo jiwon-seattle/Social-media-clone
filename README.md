@@ -1,7 +1,7 @@
 
 # Social Media Clone
 
-#### A site that looks like the mock-up :two_women_holding_hands: :couple:
+#### A site that looks like the mock-up 04.20.2020 :two_women_holding_hands: :couple:
 
 #### By **Jiwon Han**
 
