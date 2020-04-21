@@ -30,8 +30,6 @@ Recommended is a child component for PeopleYouMayKnow and they pass props to its
 
 <image src="src/img/screenshot.png" width="750px" />
 
-- [] proptypes 
-
 ## 2. Development
 ### Tech stack:
 + [NPM](https://www.npmjs.com/) for package management
