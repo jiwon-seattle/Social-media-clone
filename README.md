@@ -1,7 +1,7 @@
 
 # Social Media Clone
 
-#### A site that looks like the mock-up :two_women_holding_hands: :couple:
+#### A site that looks like the mock-up social media 04.20.2020 :two_women_holding_hands: :couple:
 
 #### By **Jiwon Han**
 
@@ -15,7 +15,7 @@
 
 A social media webpage that consists of the functional components.
 
-<image src="src/img/Diagram.png" width="750px" />
+<image src="src/img/Diagram.png" width="550px" />
 
 App is upper-most parent class, and it has four children TopNav, NewsFeed, Profile, PeopleYouMayKnow.
 
@@ -29,8 +29,6 @@ Recommended is a child component for PeopleYouMayKnow and they pass props to its
 ### Sreenshot
 
 <image src="src/img/screenshot.png" width="750px" />
-
-- [] proptypes 
 
 ## 2. Development
 ### Tech stack:
