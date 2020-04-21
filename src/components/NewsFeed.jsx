@@ -1,6 +1,9 @@
 import React from "react";
 import Tweet from "./Tweet";
 
+var tweet1Img = require("../img/woman.png")
+var tweet2Img = require("../img/man.png")
+
 function NewsFeed(){
   var Feed = {
     width: "400px",
@@ -22,24 +25,24 @@ function NewsFeed(){
     marginBottom: "20px",
   }
 
-  // var Block = {
-  //   padding: "7px",
-  //   backgroundColor: "#800020",
-  //   zIndex: "2",
-  //   position: "fixed",
-  //   top: "auto",
-  //   left: "auto",
-  //   marginTop: "20px",
-  //   marginLeft: "25px",
-  // }
+  var Block = {
+    padding: "7px",
+    backgroundColor: "#800020",
+    zIndex: "2",
+    position: "relative",
+    top: "50px",
+    left: "auto",
+    marginTop: "20px",
+    marginLeft: "15px",
+  }
 
   return (
     <div>
       <div style={Feed}>
-        {/* <span style={Block}>Me</span> */}
+        <span style={Block}>Jiwon</span>
         <input style={Input} type="text" placeholder="What's happening?"/>
-        <Tweet name="Lorem Ipsum" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-        <Tweet name="Lorem Ipsum2" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." likes="Lorem Ipsum"/>
+        <Tweet image={tweet1Img} name="Yuna" content="These days, there are full of people in parks. I don't believe it lol.." />
+        <Tweet image={tweet2Img} name="Hun" content="I watched infinite challenge yesterday, and it was super fun! I recommend you guys to watch it again." likes="Jiwon likes it"/>
 
       </div>
     </div>

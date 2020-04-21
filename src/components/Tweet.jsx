@@ -1,8 +1,9 @@
 import React from "react";
+// var profile = require("../img/jiwon2.jpg")
 
 function Tweet(props){
   var styles = {
-    border: "2px solid red",
+    border: "2px solid lightgrey",
     width: "100%",
     display: "flex",
     flexDirection: "row",
@@ -14,8 +15,10 @@ function Tweet(props){
     width: "50px",
     height: "50px",
     backgroundColor: "white",
-    //backgroundImage: "url("+props.image+")",
-    backgroundSzie: "contain",
+    backgroundImage: "url("+props.image+")",
+
+    backgroundSize: "50px",
+    backgroundRepeat: "no-repeat",
     marginTop: "10px",
     marginLeft: "10px",
   }
@@ -39,7 +42,7 @@ function Tweet(props){
   }
 
   var like = {
-    bordertop : "1px solid lightgrey",
+    bordertop : "2px solid lightgrey",
     marginTop: "10px",
     paddingTop: "10px",
     fontWeight: "bold",

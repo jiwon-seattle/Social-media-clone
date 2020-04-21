@@ -1,34 +1,38 @@
 import React from "react";
+var profileImg = require("../img/jiwon.jpg")
+var backgroundImg = require("../img/la.jpg")
 
 function Profile(){
   var top = {
     position: "relative",
-    border: "2px solid lightgrey",
-    width: "300px",
+    width: "302px",
     marginTop: "15px",
     height: "150px",
     backgroundColor: "#d6f5f5",
+    backgroundRepeat: "no-repeat",
     zIndex: "1",
-    // backgroundImage
-    backgroundSize: "contain",
+    backgroundImage: "url("+backgroundImg+")",
+    backgroundSize: "cover",
   }
   var picture = {
     zIndex: "2",
     width: "100px",
     height: "100px",
     backgroundColor: "#38A1F3",
-    backgroundSize: "contain",
+    backgroundImage: "url("+profileImg+")",
+    backgroundSize: "132px",
+    backgroundRepeat: "no-repeat",
     border: "2px solid white",
-    position: "fixed",
-    top: "auto",
+    position: "relative",
+    top: "30px",
     left: "auto",
-    marginTop: "-50px",
+    marginTop: "-105px",
     marginLeft: "14px",
     borderRadius: "20px",
   }
 
   var bottom = {
-    border : "2px solid, lightgrey",
+    border : "2px solid lightgrey",
     width: "300px",
     height: "100px",
     zIndex: "1",
@@ -53,7 +57,7 @@ function Profile(){
 
   var text = {
     width: "260px",
-    height: "300px",
+    height: "200px",
     padding: "20px",
     border : "2px solid lightgrey",
     marginTop: "20px",
@@ -69,7 +73,7 @@ function Profile(){
         <div style={link}><span>TWEETS</span><span>FOLLOWING</span><span>FOLLOWERS</span></div>
       </div>
       <div style={text}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      I had taro smoothie today. It was really sweeet!
       </div>
     </div>
   );
