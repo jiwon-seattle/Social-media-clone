@@ -13,11 +13,11 @@
 
 ## 1. Social Media Clone
 
-A social media webpage that consists of the functional components.
+A social media webpage that consists of the functional components. This is a single-page application.
 
 <image src="src/img/Diagram.png" width="550px" />
 
-App is upper-most parent class, and it has four children TopNav, NewsFeed, Profile, PeopleYouMayKnow.
+App is a upper-most parent component, and it has four children : TopNav, NewsFeed, Profile, PeopleYouMayKnow.
 
 TopNav have TopNavButton and TopNavSearch as children components.
 
