@@ -3,7 +3,7 @@ import TopNavButton from "./TopNavButton";
 import TopNavSearch from "./TopNavSearch";
 
 function TopNav(){
-  var styles = {
+  const styles = {
     width: "100%",
     display: "flex",
     flexDirection: "row",
@@ -13,7 +13,7 @@ function TopNav(){
     paddingBottom: "15px"
   }
 
-  var buttonStyle = {
+  const buttonStyle = {
     justifyContent: "flex-start"
   }
 

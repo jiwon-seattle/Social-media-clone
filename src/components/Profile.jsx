@@ -3,7 +3,12 @@ var profileImg = require("../img/jiwon.jpg")
 var backgroundImg = require("../img/la.jpg")
 
 function Profile(){
-  var top = {
+  const name = "Jiwon Han"
+  const tweets = "102";
+  const following = "7";
+  const follower = "7";
+
+  const top = {
     position: "relative",
     width: "302px",
     marginTop: "15px",
@@ -14,13 +19,13 @@ function Profile(){
     backgroundImage: "url("+backgroundImg+")",
     backgroundSize: "cover",
   }
-  var picture = {
+  const picture = {
     zIndex: "2",
     width: "100px",
     height: "100px",
     backgroundColor: "#38A1F3",
     backgroundImage: "url("+profileImg+")",
-    backgroundSize: "132px",
+    backgroundSize: "105px",
     backgroundRepeat: "no-repeat",
     border: "2px solid white",
     position: "relative",
@@ -31,7 +36,7 @@ function Profile(){
     borderRadius: "20px",
   }
 
-  var bottom = {
+  const bottom = {
     border : "2px solid lightgrey",
     width: "300px",
     height: "100px",
@@ -39,7 +44,7 @@ function Profile(){
     position: "relative",
   }
 
-  var name = {
+  const name = {
     textAlign: "right",
     marginRight: "20px",
     marginTop: "15px",
@@ -48,14 +53,14 @@ function Profile(){
     fontWeight: "bold",
   }
 
-  var link = {
+  const link = {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-around",
     fontSize: "13px",
   }
 
-  var text = {
+  const text = {
     width: "260px",
     height: "200px",
     padding: "20px",
@@ -69,11 +74,20 @@ function Profile(){
       <div style={top}></div>
       <div style={picture}></div>
       <div style={bottom}>
-        <div style={name}>Jiwon Han</div>
-        <div style={link}><span>TWEETS</span><span>FOLLOWING</span><span>FOLLOWERS</span></div>
+        <div style={name}>{name}</div>
+        <div style={link}><span>TWEETS {tweets} </span><span>FOLLOWING {following} </span><span>FOLLOWERS {follower}</span></div>
       </div>
       <div style={text}>
+      <em>4/20/2020</em>
+      <br />
       I had taro smoothie today. It was really sweeet!
+      <br />
+      <br />
+      <em>4/19/2020</em>
+      <br />
+      I am learning programming, and it is hard but rewarding :)
+      <br />
+
       </div>
     </div>
   );

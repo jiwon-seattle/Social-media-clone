@@ -1,7 +1,7 @@
 import React from "react";
 
 function TopNavButton(props){
-  var styles = {
+  const styles = {
     borderRadius: "0px",
     border: "none",
     height: "50px",

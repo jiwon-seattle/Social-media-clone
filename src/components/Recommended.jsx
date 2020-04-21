@@ -1,7 +1,7 @@
 import React from "react";
 
 function Recommended(props){
-  var styles = {
+  const styles = {
     display: "flex",
     flexDirecton: "row",
     justifyContent: "flex-start",
@@ -9,7 +9,7 @@ function Recommended(props){
     marginBottom: "10px",
   }
 
-  var Image = {
+  const Image = {
     width: "70px",
     height: "70px",
     backgroundColor: "grey",
@@ -20,13 +20,15 @@ function Recommended(props){
     marginRight: "10px",
   }
 
-  var button = {
+  const button = {
     backgroundColor: "#3B5998",
     color: "white",
     marginTop: "15px",
     padding: "10px",
     textAlign: "center",
     width: "100px",
+    borderRadius: "0px",
+    border: "none",
   }
 
   return (
@@ -35,7 +37,7 @@ function Recommended(props){
       </div>
       <div>
         <div>{props.name}</div>
-        <button style={button} type="button">Button</button>
+        <button style={button} type="button">Say Hello</button>
       </div>
     </div>
   )

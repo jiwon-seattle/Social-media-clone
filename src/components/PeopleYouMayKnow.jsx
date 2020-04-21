@@ -1,12 +1,12 @@
 import React from "react";
 import Recommended from "./Recommended";
 
-var person1 = require('../img/googler.png');
-var person2 = require('../img/cat.jpg');
-var person3 = require('../img/boba.jpg');
+const person1 = require('../img/googler.png');
+const person2 = require('../img/cat.jpg');
+const person3 = require('../img/boba.jpg');
 
 function PeopleYouMayKnow(){
-  var styles = {
+  const styles = {
     border: "1px solid lightgrey",
     marginLeft: "25px",
     marginTop: "15px",

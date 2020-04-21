@@ -1,8 +1,7 @@
 import React from "react";
-// var profile = require("../img/jiwon2.jpg")
 
 function Tweet(props){
-  var styles = {
+  const styles = {
     border: "2px solid lightgrey",
     width: "100%",
     display: "flex",
@@ -11,38 +10,35 @@ function Tweet(props){
     backgroundColor: "white",
   }
 
-  var profile = {
+  const profile = {
     width: "50px",
     height: "50px",
     backgroundColor: "white",
     backgroundImage: "url("+props.image+")",
-
     backgroundSize: "50px",
     backgroundRepeat: "no-repeat",
     marginTop: "10px",
     marginLeft: "10px",
   }
 
-  var text  = {
+  const text  = {
     width: "300px",
     paddingTop: "10px",
     paddingLeft: "20px",
     overflowWrap: "break-word",
   }
-  var name = {
+  const name = {
     fontWeight: "bold",
     marginTo: "5px",
     marginBottom: "5px",
   }
 
-  var content = {
-    borderTop: "1px solid lightgrey",
+  const content = {
     marginTop: "10px",
     paddingTop: "10px",
   }
 
-  var like = {
-    bordertop : "2px solid lightgrey",
+  const like = {
     marginTop: "10px",
     paddingTop: "10px",
     fontWeight: "bold",

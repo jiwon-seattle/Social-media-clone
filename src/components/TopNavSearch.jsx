@@ -1,7 +1,7 @@
 import React from "react";
 
 function TopNavSearch() {
-  var searchStyles = {
+  const searchStyles = {
     borderBottomLeftRadius: "50px",
     borderBottomRightRadius: "50px",
     borderTopLeftRadius: "50px",
@@ -13,7 +13,7 @@ function TopNavSearch() {
     padding : "8px", 
   }
 
-  var tweetStyles = {
+  const tweetStyles = {
     borderBottomLeftRadius: "50px",
     borderBottomRightRadius: "50px",
     borderTopLeftRadius: "50px",
